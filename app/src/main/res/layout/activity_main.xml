@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.irononetech.persistence.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:id="@+id/btn_settings"
+        android:layout_centerHorizontal="true"
+        android:onClick="onViewSettingsClick"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE USER"
+        android:id="@+id/button_create_user"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCreateUserClick"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW USERS"
+        android:id="@+id/btn_view_users"
+        android:layout_centerHorizontal="true"
+        android:onClick="onViewUsersClick"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FILE SAVE"
+        android:layout_centerHorizontal="true"
+        android:onClick="onFileSaveClick"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEMO MEMORY"
+        android:layout_centerHorizontal="true"
+        android:onClick="onDemoMemoryClick"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
